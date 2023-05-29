@@ -14,12 +14,20 @@ h1 {
   color: #e613d8;
   font-size: 32px;
   font-weight: 900;
+  line-height: 20px;
 }
 h2 {
   color: #a045ce;
   font-size: 20px;
   font-weight: lighter;
   font-weight: 500;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 a {
   font-family: 'Ysabeau', sans-serif;
@@ -33,7 +41,7 @@ a:hover {
 }
 .container {
   width: 700px;
-  margin: 40px auto;
+  margin: auto;
 }
 
 @media (max-width: 960px) {
@@ -71,6 +79,7 @@ a:hover {
 }
 .btn-purple:hover {
   background-color: #e613d8;
+  transition-duration: 0.4s;
   color: white;
 }
 .card-white {
@@ -79,7 +88,7 @@ a:hover {
   border-radius: 25px;
   margin: 20px 0px;
   text-align: center;
-  box-shadow: 2px 2px 5px rgb(180, 127, 255);;
+  box-shadow: 2px 2px 5px rgb(180, 127, 255);
 }
 
 .list-inline {
@@ -98,6 +107,11 @@ a:hover {
 .list-inline i:hover {
   color: #e613d8;
 }
-#introduction p {
-  margin-bottom: 40px;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  height: auto;
 }
