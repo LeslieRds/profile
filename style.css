@@ -1,5 +1,20 @@
-/* Colors and fonts */
   @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ysabeau:ital,wght@1,700&display=swap');
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
 body {
   background: #F7F9FC;
   color: #37005e;
@@ -44,38 +59,21 @@ a:hover {
   margin: auto;
 }
 
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
-}
-
-.card-presentation {
-  background-color: white;
-  padding: 40px;
-  border-radius: 25px;
-  margin: auto;
-  text-align: center;
-  box-shadow: 2px 2px 5px rgb(180, 127, 255);;
-}
 .img-profile {
   border-radius: 50%;
+}
+.btn {
+  padding: 40px;
+  border-radius: 25px;
+  margin: 20px 0px;
+  text-align: center;
 }
 .btn-purple {
   background-color: #61248c;
   color: white;
   padding: 15px 20px;
   border-radius: 25px;
+  margin: 20px 0px;
 }
 .btn-purple:hover {
   background-color: #e613d8;
@@ -90,12 +88,10 @@ a:hover {
   text-align: center;
   box-shadow: 2px 2px 5px rgb(180, 127, 255);
 }
-
 .list-inline {
   list-style: none;
   padding-left: 0px;
 }
-
 .list-inline li {
   display: inline;
   padding: 10px;
@@ -106,12 +102,4 @@ a:hover {
 }
 .list-inline i:hover {
   color: #e613d8;
-}
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  height: auto;
 }
