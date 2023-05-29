@@ -52,17 +52,16 @@ a:hover {
   }
 }
 
-.card-white {
+.card-presentation {
   background-color: white;
   padding: 40px;
   border-radius: 25px;
-  margin: 20px 0px;
+  margin: auto;
   text-align: center;
   box-shadow: 2px 2px 5px rgb(180, 127, 255);;
 }
 .img-profile {
-  border-radius: 25px;
-  box-shadow: 2px 2px 5px rgb(180, 127, 255);
+  border-radius: 50%;
 }
 .btn-purple {
   background-color: #61248c;
@@ -74,6 +73,15 @@ a:hover {
   background-color: #e613d8;
   color: white;
 }
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 25px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(180, 127, 255);;
+}
+
 .list-inline {
   list-style: none;
   padding-left: 0px;
