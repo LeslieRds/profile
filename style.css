@@ -1,0 +1,95 @@
+/* Colors and fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ysabeau:ital,wght@1,700&display=swap');
+body {
+  background: #F7F9FC;
+  color: #37005e;
+  font-family: 'Ysabeau', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+}
+h1 {
+  color: #e613d8;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #a045ce;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Ysabeau', sans-serif;
+  text-decoration: none;
+  color: #e613d8;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: rgb(180, 127, 255);
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  border-radius: 25px;
+  margin: 20px 0px;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgb(180, 127, 255);;
+}
+.img-profile {
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgb(180, 127, 255);
+}
+.btn-purple {
+  background-color: #61248c;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 25px;
+}
+.btn-purple:hover {
+  background-color: #e613d8;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #61248c;
+}
+.list-inline i:hover {
+  color: #e613d8;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
